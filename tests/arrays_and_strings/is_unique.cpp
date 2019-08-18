@@ -9,7 +9,7 @@ bool TESTNAME(std::string str){
     return false;
 }
 
-TEST(TESTNAME, Tests) {
+TEST(TESTNAME, tests) {
   EXPECT_EQ(TESTNAME("abcdefg"), true);
   EXPECT_EQ(TESTNAME("abcdecfg"), false);
 }
